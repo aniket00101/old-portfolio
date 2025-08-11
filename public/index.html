@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniket Das - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<html>
+    <!-- Navigation -->
+    <header>
+    <nav class="navbar">
+        <div class="logo">Portfolio</div>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <section id="about" class="hero">
+  <div class="profile-card">
+    <div class="datetime">
+        <h2 id="time"></h2>
+        <h2 id="date"></h2>
+      </div>
+    <!-- Left Side: Image + Info -->
+    <div class="card-left">
+      <img src="photo/m1.jpg" alt="Aniket Das" class="profile-img" />
+      <h1>Aniket Das</h1>
+      <h2>B-Tech: CSE from Narula Institute of Technology</h2>
+      <h3 class="changing-text"></h3>
+    </div>
+
+    <!-- Right Side: Details + Icons -->
+    <div class="card-right">
+      <div class="details">
+        <p><i class="fas fa-phone"></i>Phone: +91 8697544131</p>
+        <p><i class="fas fa-envelope"></i>Email: dasaniket971@gmail.com</p>
+        <p><i class="fas fa-map-marker-alt"></i>Location: Kolkata, India</p>
+        <p><i class="fas fa-code"></i>Skills: Web Development</p>
+        <p><i class="fas fa-heart"></i>Interests: Coding, Hackathons, AI & IoT</p>
+      </div>
+
+      <div class="social-links">
+        <a href="mailto:dasaniket971.com" target="_blank"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.instagram.com/_aniketdas_?igsh=bHNuNTI4OW0yNG9t" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/aniket-das-7766b129a" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/aniketdas/" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <h2 class="section-title">My Projects</h2>
+            <div class="project-container">
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <img src="photo/crop.jpg" alt="AgriSense">
+                    <h3>AgriSense - Crop Management System (Website)</h3>
+                    <p>An agriculture management platform with ML-based crop prediction and farm data collection and recommendations for farmers.</p>
+                    <div class="tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">Firebase</span>
+                        <span class="tag">Node.js</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="photo/mountain.jpg" alt="Smart Home IoT">
+                    <h3>Health Tracker for Mountain Climber</h3>
+                    <p>IoT‑based wearable health tracker monitors vitals and altitude in real time, alerting mountain climbers to dangerous conditions through smartphone app integration.</p>
+                    <div class="tags">
+                        <span class="tag">Arduino C/C++</span>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <img src="photo/job.jpg" alt="E-Learning Platform">
+                    <h3>Job Portfolio (Website)</h3>
+                    <p>Responsive Django‑powered job‑portfolio site: dynamic résumé, project showcases, application tracker, and real‑time analytics for recruiters’ insights.</p>
+                    <div class="tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">Firebase</span>
+                        <span class="tag">Django</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="photo/line.jpg" alt="E-Learning Platform">
+                    <h3>Competition (Line Follower)</h3>
+                    <p>Secured 2nd place with autonomous Arduino‑powered line‑follower robot, featuring 5‑channel IR sensing and TB6612FNG motor control.</p>
+                    <div class="tags">
+                        <span class="tag">Arduino C/C++</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/300x180.png?text=Smart+Home+IoT" alt="Smart Home IoT">
+                    <h3>IOT Based LPG Gas Leakage Detection - Gsm Module</h3>
+                    <p>Developed IoT LPG leakage detector using MQ-6, ESP8266, SIM800L; sends SMS, dashboard updates, buzzer alerts, 12-second response for home safety.</p>
+                    <div class="tags">
+                        <span class="tag">Arduino C/C++</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section id="certificates" class="certificates">
+            <h2 class="section-title">Certificates</h2>
+            <div class="certificate-container">
+                
+                <div class="certificate-card">
+                    <img src="photo/Asansol.jpg" alt="IoT Certificate">
+                    <h3>IHMMC 25</h3>
+                    <p>Participated in Hardware making competitions from Asansol Engineering College</p>
+                </div>
+                <div class="certificate-card">
+                    <img src="photo/Hackthon.jpg">
+                    <h3>HACK-O-NIT</h3>
+                    <p>Participated in Hackthon From Narula Institute of Technology</p>
+                </div>
+                <!-- Certificate 1 -->
+            
+                <div class="certificate-card">
+                    <img src="photo/m2.jpg" alt="Python Certificate">
+                    <h3>Python for Data Science</h3>
+                    <p>Issued by Cognitive Class - 8 April 2025</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-container">
+                <!-- Frontend -->
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>HTML/CSS</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>JavaScript</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>React</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Python</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Django</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Node.js</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Others -->
+                
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education">
+            <h2 class="section-title">Education</h2>
+            <div class="education-timeline">
+                <!-- Education 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023 - 2027</div>
+                        <h3 class="timeline-title">B.Tech in Computer Science & Engineering</h3>
+                        <h4 class="timeline-subtitle">Narula Institute of Technology, Kolkata</h4>
+                        <p class="timeline-description">Specialization in Web Development and IoT. Participated in several technical competitions and hackathons.</p>
+                    </div>
+                </div>
+
+                <!-- Education 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2020 - 2022</div>
+                        <h3 class="timeline-title">Higher Secondary Education</h3>
+                        <h4 class="timeline-subtitle">Central Board of Secondary Education</h4>
+                        <p class="timeline-description">Completed with 85% in Science stream with Computer Science as an elective subject.</p>
+                    </div>
+                </div>
+
+                <!-- Education 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2020</div>
+                        <h3 class="timeline-title">Secondary Education</h3>
+                        <h4 class="timeline-subtitle">Central Board of Secondary Education</h4>
+                        <p class="timeline-description">Completed with 92% marks with distinction in Mathematics and Science.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="contact">
+            <div class="contact-form">
+                <form id="commentForm">
+                    <div id="container3D"></div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-form">
+                <form id="commentForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Message</label>
+                        <textarea id="comment" class="form-control" placeholder="Write your message or comment here..." required></textarea>
+                    </div>
+                    <h4 id="error"></h4><br>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p class="footer-text">© 2025 Aniket Das. All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="mailto:dasaniket971.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.instagram.com/_aniketdas_?igsh=bHNuNTI4OW0yNG9t" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/aniket-das-7766b129a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+</html>
+<script type="module" src="app.js"></script>
+<script type="module" src="control.js"></script>
+</html>
